@@ -38,7 +38,7 @@ func TestBuildSimpleSystemConfigurationJsonFailure(test *testing.T) {
 // ----------------------------------------------------------------------------
 
 func ExampleBuildSimpleSystemConfigurationJson() {
-	result, err := BuildSimpleSystemConfigurationJson("postgresql://username:password@hostname:5432/G2")
+	result, err := BuildSimpleSystemConfigurationJson("postgresql://usernameBob:password@hostname:5432/G2")
 	if err != nil {
 		fmt.Println(err)
 	}
